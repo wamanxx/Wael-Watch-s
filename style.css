@@ -390,6 +390,10 @@ button[type="submit"] {
 }
 
 @media screen and (max-width:1000px) {
+	.header{
+        max-width: 100vw;
+        overflow: hidden;
+    }
     .contact{
         display: block;
         height: 100%;
